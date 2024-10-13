@@ -42,29 +42,12 @@ This is a full-stack MERN application built with Express, React, and SQLite. It 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/shehzadfalcon/SQLite-Data-Manager
+cd SQLite-Data-Manager
 ```
 
 
-## Backend Setup
-1. Navigate to the backend directory:
-
-```bash
-cd backend
-```
-2. Install dependencies:
-
-```bash
-npm install
-```
-3. Run the server:
-
-```bash
-npm start
-```
-
-## Frontend Setup
+## Project Setup
 
 ```bash
 cd frontend
@@ -82,7 +65,7 @@ npm start
 
 ## Usage
 Access the frontend at http://localhost:3000.
-The Express server runs on http://localhost:5000.
+The Express server runs on http://localhost:3001.
 
 ## API Endpoints
 User Authentication
@@ -90,10 +73,10 @@ POST /api/auth/register: Register a new user.
 POST /api/auth/login: Log in a user.
 
 ## CRUD Operations
-GET /api/items: Retrieve all items.
-GET /api/items/:id: Retrieve a single item by ID.
-POST /api/items: Create a new item.
-PUT /api/items/:id: Update an existing item by ID.
+GET /api/agents: Retrieve all agents.
+GET /api/agents/:id: Retrieve a single agent by ID.
+POST /api/agents: Create a new agent.
+PUT /api/agents/:id: Update an existing agent by ID.
 
 ## Contributing
 We welcome contributions from anyone passionate about AI ethics, neuroethics, and web development! Here's how you can contribute:
